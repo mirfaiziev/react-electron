@@ -29,15 +29,10 @@ class App extends Component {
 
      return (
       <div className="App">
-        <h1>Калькулятор кармы v1.0.3</h1>
-        {/* <BrowserRouter>
-          <Switch>
-            <Route exact path='/'><Home completeCalculation={this.completeCalculation} /></Route>
-            <Route path='/result'><Result calculationDone={this.state.calculationDone}/></Route>
-          </Switch>
-        </BrowserRouter> */}
+        <span className="noprint">
+         <h1>Калькулятор кармы v1.0.3</h1>
+        </span>
         {page}
-        
       </div>
     );
   }

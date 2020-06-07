@@ -3,7 +3,6 @@ import React from 'react'
 class Result extends React.Component {
     
     returnBack = () => {
-        console.log(this.props)
         this.props.setStep(0)
     }
 
@@ -19,9 +18,9 @@ class Result extends React.Component {
                 Необходима регулярная протирка очистителем кармы.
             </p>
         </div>
-        <div className="container">
+        <div className="container noprint">
             <button onClick={this.returnBack}>Назад</button>
-            <button onClick={this.UNSAFE_componentWillMountprintPage}>Печать</button>
+            <button onClick={this.printPage}>Печать</button>
         </div>
       </div>
     )
