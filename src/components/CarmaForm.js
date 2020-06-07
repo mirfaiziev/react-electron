@@ -3,10 +3,10 @@ import React from 'react';
 class CarmaForm extends React.Component {
     onSubmit = (e) => {
         e.preventDefault();
-        this.props.setStep(2);
-        // setTimeout(()=>{
-        //     this.props.setStep(2);
-        // }, 5000);
+        this.props.setStep(1);
+        setTimeout(()=>{
+            this.props.setStep(2);
+        }, 5000);
         return false;
     }
 

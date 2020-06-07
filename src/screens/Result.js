@@ -21,7 +21,7 @@ class Result extends React.Component {
         </div>
         <div className="container">
             <button onClick={this.returnBack}>Назад</button>
-            <button onClick={this.printPage}>Печать</button>
+            <button onClick={this.UNSAFE_componentWillMountprintPage}>Печать</button>
         </div>
       </div>
     )

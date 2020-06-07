@@ -7,7 +7,7 @@ const Waiting = (props) => {
     <div>
       <div className="container">
         <p className="center">Обращаемся к звездам, ожидайте ответ</p>
-        <p className="center"><img src={preloader}/></p>
+        <p className="center"><img src={preloader} alt=""/></p>
       </div>
     </div>
   )
